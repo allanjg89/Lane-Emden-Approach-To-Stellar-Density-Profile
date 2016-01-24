@@ -1,0 +1,17 @@
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{lllll}
+\hline 
+$h$ & $x$ & $\phi(x)_{n+1}$ & $\phi_n$ & \%-difference \\
+\hline 
+\hline 
+      1.00000 &      1.00000 &     0.727498 &     0.541667 &      34.3073\\
+     0.500000 &      1.00000 &     0.838454 &     0.727498 &      15.2518\\
+     0.100000 &      1.00000 &     0.840666 &     0.838454 &     0.263796\\
+    0.0500000 &      1.00000 &     0.841419 &     0.840666 &    0.0895205\\
+    0.0100000 &      1.00000 &     0.841452 &     0.841419 &   0.00393861\\
+   0.00500000 &      1.00000 &     0.841769 &     0.841452 &    0.0377341\\
+\end{tabular}
+\caption{$\phi(1)$ is evaluated for varying step-size and the percent difference between results for neighboring $h$'s are reported.}\label{tab:diff}
+\end{center}
+\end{table}
